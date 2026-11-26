@@ -283,21 +283,25 @@
           </div>
 
           <div class="contact-form">
-            <form action="#" method="post">
-              <label for="name">Nama Lengkap</label>
-              <input type="text" id="name" name="name" placeholder="Nama Anda atau perusahaan" required>
+            <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="3065c4d4-026a-4b2a-b59f-df89597d7947">
+  <input type="hidden" name="subject" value="Pesan baru dari portofolio">
+  <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
 
-              <label for="email">Email / WhatsApp</label>
-              <input type="text" id="email" name="email" placeholder="Alamat email atau WhatsApp aktif" required>
+  <label for="name">Nama Lengkap</label>
+  <input type="text" id="name" name="name" placeholder="Nama Anda atau perusahaan" required>
 
-              <label for="message">Pesan</label>
-              <textarea id="message" name="message" placeholder="Tuliskan pesan atau hal yang ingin didiskusikan..." required></textarea>
+  <label for="email">Email / WhatsApp</label>
+  <input type="text" id="email" name="email" placeholder="Alamat email atau WhatsApp aktif" required>
 
-              <button type="submit">
-                <i class="fa-regular fa-paper-plane"></i>
-                Kirim Pesan
-              </button>
-            </form>
+  <label for="message">Pesan</label>
+  <textarea id="message" name="message" placeholder="Tuliskan pesan atau hal yang ingin didiskusikan..." required></textarea>
+
+  <button type="submit">
+    <i class="fa-regular fa-paper-plane"></i>
+    Kirim Pesan
+  </button>
+</form>
           </div>
 
         </div>
