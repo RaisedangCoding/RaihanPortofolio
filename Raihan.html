@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Raihan Averroes</title>
+  <link rel="stylesheet" href="rai.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">Rai.</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Buka menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul id="nav-menu">
+        <li><a href="#Beranda">Beranda</a></li>
+        <li><a href="#About">Tentang</a></li>
+        <li><a href="#Pendidikan">Pendidikan</a></li>
+        <li><a href="#Keahlian">Keahlian</a></li>
+        <li><a href="#Portofolio">Portofolio</a></li>
+        <li><a href="#Contact">Kontak</a></li>
+      </ul>
+
+      <a href="#Contact" class="btn"><i class="fa-solid fa-arrow-up-right-from-square" style="margin-right: 5px;"></i>Hire Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO: .hero-image sekarang SIBLING dari .hero-content1 -->
+    <section class="hero-container1" id="Beranda">
+
+      <div class="hero-content1">
+        <h2>Selamat Datang</h2>
+        <h1>Aspiring Software Engineer</h1>
+
+        <h3>
+          Halo, saya
+          <span style="color: greenyellow;">Raihan Averroes</span>, seorang pengembang web
+          dan desainer UI/UX. Saya memiliki pengalaman
+          dalam membangun situs web yang responsif dan menarik.
+        </h3>
+
+        <div class="hero-buttons">
+          <a href="#Contact" class="ctc-btn">Hubungi Saya</a>
+          <a href="#Portofolio" class="ptf-btn">Lihat Proyek<i class="fa-solid fa-arrow-down-long" style="font-size: small;"></i></a>
+          <a href="https://wa.me/" class="wa-btn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+
+          <div class="btn-socialmedia">
+            <a href="https://github.com/RaisedangCoding" target="_blank" rel="noopener noreferrer" class="btn-github"><i class="fa-brands fa-github"></i></a>
+            <a href="https://instagram.com/raihan.averroes" target="_blank" rel="noopener noreferrer" class="btn-instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="photo/Rai with Cinematic Highlight.png" alt="Foto Raihan">
+      </div>
+
+    </section>
+
+    <section id="About">
+      <div class="about-container">
+        <h2>\\Tentang</h2>
+
+        <div class="card-about">
+          <p>
+            Saya adalah seorang pelajar yang memiliki ketertarikan dalam dunia
+            teknologi, khususnya pengembangan website dan desain UI/UX.
+            Saat ini, saya terus mengembangkan kemampuan HTML, CSS, dan
+            JavaScript untuk membangun website yang responsif dan modern.
+            Saya percaya bahwa konsistensi dalam belajar merupakan kunci
+            untuk menjadi seorang developer yang profesional.
+          </p>
+        </div>
+
+        <!-- Inline style absolute dihapus; ikon dipindah ke dalam .frame -->
+        <div class="card-identify">
+          <div class="nama">
+            <div class="frame"><i class="fa-solid fa-user"></i></div>
+            <h3>Nama<br>Raihan Averroes</h3>
+          </div>
+          <div class="ttl">
+            <div class="frame"><i class="fa-solid fa-cake-candles"></i></div>
+            <h3>TTL<br>03/04/2001</h3>
+          </div>
+          <div class="status">
+            <div class="frame"><i class="fa-solid fa-user-graduate"></i></div>
+            <h3>Status<br>Siswa</h3>
+          </div>
+          <div class="sekolah">
+            <div class="frame"><i class="fa-solid fa-school"></i></div>
+            <h3>Sekolah<br>SMK Darussa'adah</h3>
+          </div>
+        </div>
+
+        <div class="img-setting">
+          <h3 class="img-setting-title"><span class="line-skills"></span>Keahlian</h3>
+          <img src="photo/html (1).png" alt="HTML">
+          <img src="photo/css (1).png" alt="CSS">
+          <img src="photo/react (1).png" alt="React">
+          <img src="photo/php (1).png" alt="PHP">
+          <img src="photo/docker (1).png" alt="Docker">
+          <img src="photo/javascript (1).png" alt="JavaScript">
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="Pendidikan">
+      <h2>Pendidikan</h2>
+      <div class="education-timeline">
+        <div class="education-card right">
+          <h3>SD SAI TALASIA</h3>
+          <p>2017 - 2023</p>
+        </div>
+        <div class="education-card left">
+          <h3>SMPIT Ar-Rohmaniyah</h3>
+          <p>2023 - 2026</p>
+        </div>
+        <div class="education-card right">
+          <h3>SMK Daarussa'adah</h3>
+          <p>2026 - Sekarang</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- id diganti dari "Skills" ke "Keahlian" agar cocok dengan link navbar -->
+    <section id="Keahlian">
+      <div class="skills-container">
+        <h2 class="heading-skills">Keahlian</h2>
+
+        <!-- Wrapper .card / .card-positionN dihapus; semua kartu strukturnya sama -->
+        <div class="all-position-skills">
+
+          <div class="html">
+            <div class="frame"><i class="fa-solid fa-code"></i></div>
+            <h5>HTML</h5>
+            <p>74%</p>
+            <div class="skill-bar"><span style="width: 74%;"></span></div>
+            <div class="glow-effect-skills"></div>
+          </div>
+
+          <div class="css">
+            <div class="frame"><i class="fa-solid fa-palette"></i></div>
+            <h5>CSS</h5>
+            <p>67%</p>
+            <div class="skill-bar"><span style="width: 67%;"></span></div>
+            <div class="glow-effect-skills"></div>
+          </div>
+
+          <div class="js">
+            <div class="frame"><i class="fa-brands fa-square-js"></i></div>
+            <h5>JavaScript</h5>
+            <p>1%</p>
+            <div class="skill-bar"><span style="width: 1%;"></span></div>
+            <div class="glow-effect-skills"></div>
+          </div>
+
+          <div class="react">
+            <div class="frame"><i class="fa-brands fa-react"></i></div>
+            <h5>React</h5>
+            <p>2%</p>
+            <div class="skill-bar"><span style="width: 2%;"></span></div>
+            <div class="glow-effect-skills"></div>
+          </div>
+
+          <div class="uiux">
+            <div class="frame"><i class="fa-solid fa-pen-ruler"></i></div>
+            <h5>UI/UX Design</h5>
+            <p>45%</p>
+            <div class="skill-bar"><span style="width: 45%;"></span></div>
+            <div class="glow-effect-skills"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="Portofolio">
+      <div class="portofolio-container">
+        <h2>\\Proyek</h2>
+
+        <div class="card-container">
+
+          <div class="cards">
+            <a href="https://raicoffee.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <div class="frame-project"><img src="photo/Screenshot 2026-11-19 074421.png" alt="Project 1"></div>
+              <div class="projek-description">
+                <h3>Rai Coffee</h3>
+                <p>Website Coffee Shop Premium.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="cards">
+            <a href="#Portofolio" target="_blank">
+              <div class="frame-project"><img src="photo/Screenshot 2026-11-19 074949.png" alt="Project 2"></div>
+              <div class="projek-description">
+                <h3>Rai ASUS</h3>
+                <p>Website Store dengan menjual produk dari ASUS.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="cards">
+            <a href="https://stately-biscochitos-7f0c83.netlify.app" target="_blank">
+              <div class="frame-project"><img src="photo/Screenshot 2026-11-26 084517.png" alt="Project 3"></div>
+              <div class="projek-description">
+                <h3>Indonesia Food</h3>
+                <p>Website Restaurant Makanan khas Indonesia.</p>
+              </div>
+            </a>
+          </div>
+
+           <div class="cards">
+            <a href="https://drive.google.com/file/d/1iNUojIlyapbNDcVVP9NSuZsh5gEkVitw/view?usp=sharing" target="_blank">
+              <div class="frame-project"><img src="photo/RAI GEOREK.png" alt="Project 3"></div>
+              <div class="projek-description">
+                <h3>Poster Promosi Rai Geprek</h3>
+                <p>Poster Promosi makanan Ayam Geprek.</p>
+              </div>
+            </a>
+          </div>
+
+           <div class="cards">
+            <a href="https://drive.google.com/file/d/12OaH7xN8OmtlTL7tvkTBej5l4B7YLGmR/view?usp=sharing" target="_blank">
+              <div class="frame-project"><img src="photo/Poster Memperingati hari Kemerdekaan.png" alt="Project 3"></div>
+              <div class="projek-description">
+                <h3>Poster Memperingati hari Kemerdekaan</h3>
+                <p>Poster Memperingati hari kemerdekaan ke-81.</p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact">
+      <div class="contact-container">
+
+        <div class="contact-heading">
+          <h2>Hubungi Saya</h2>
+          <p>Terbuka untuk diskusi teknis, kolaborasi proyek web, atau peluang kerja sama.</p>
+        </div>
+
+        <div class="contact-content">
+
+          <div class="contact-info">
+            <div class="info-group">
+              <span>IDENTITAS</span>
+              <h3>Raihan Averroes</h3>
+            </div>
+            <div class="info-group">
+              <span>INSTITUSI PENDIDIKAN</span>
+              <h3>SMK - Rekayasa Perangkat Lunak</h3>
+            </div>
+            <div class="info-group">
+              <span>KEAHLIAN</span>
+              <h3>Web Developer & UI/UX Designer</h3>
+            </div>
+
+            <div class="social-links">
+              <a href="mailto:raihanaverroes@gmail.com">
+                <i class="fa-regular fa-envelope"></i>
+                raihanaverroes@gmail.com
+              </a>
+              <a href="https://github.com/RaisedangCoding" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                RaisedangCoding
+              </a>
+              <a href="https://instagram.com/raihan.averroes" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+                raihan.averroes
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form action="#" method="post">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" name="name" placeholder="Nama Anda atau perusahaan" required>
+
+              <label for="email">Email / WhatsApp</label>
+              <input type="text" id="email" name="email" placeholder="Alamat email atau WhatsApp aktif" required>
+
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" placeholder="Tuliskan pesan atau hal yang ingin didiskusikan..." required></textarea>
+
+              <button type="submit">
+                <i class="fa-regular fa-paper-plane"></i>
+                Kirim Pesan
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Raihan Averroes. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navbar = document.querySelector(".navbar");
+
+    menuToggle.addEventListener("click", function () {
+      navbar.classList.toggle("active");
+      const icon = menuToggle.querySelector("i");
+      if (navbar.classList.contains("active")) {
+        icon.classList.replace("fa-bars", "fa-xmark");
+      } else {
+        icon.classList.replace("fa-xmark", "fa-bars");
+      }
+    });
+
+    // Tutup menu mobile setelah salah satu link diklik
+    document.querySelectorAll("#nav-menu a, .navbar .btn").forEach(function (link) {
+      link.addEventListener("click", function () {
+        if (navbar.classList.contains("active")) menuToggle.click();
+      });
+    });
+  </script>
+</body>
+</html>
